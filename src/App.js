@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import ArticleContainer from './containers/article_container';
+import ArticleContainer from './containers/article-container';
+import ArticlesList from './containers/article-list';
 
 class App extends Component {
   render() {
@@ -7,6 +8,7 @@ class App extends Component {
       <div>
         <h1>My News App!</h1>
         <ArticleContainer />
+        <ArticlesList />
       </div>
     );
   }

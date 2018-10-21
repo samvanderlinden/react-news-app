@@ -11,7 +11,7 @@ class ArticleContainer extends Component {
     render () {
         return ( 
             <div>
-
+                <h2>Hey there!</h2>
             </div>
         );
     }
